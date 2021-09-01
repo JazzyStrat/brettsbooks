@@ -1,0 +1,202 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color:rgb(247, 101, 84);    
+}
+
+blockquote {
+
+margin: 10px 20px;
+border: 2px solid;
+padding: 10px;
+width: 90%;
+min-height: 60px;
+resize: vertical;
+font-size: 15px;
+color: white;
+font-family: futura;
+background-color:rgba(109, 37, 104, 0.742);
+
+}
+
+.noteButton {
+display:block;
+padding:0.46em 1.6em;
+border:0.1em solid #000000;
+width: 66%;
+margin: 0 auto;
+border-radius:0.12em;
+text-decoration:none;
+font-family:'Roboto',sans-serif;
+font-weight:300;
+color:#ffffff;
+text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+background-color:#3429b0;
+text-align:center;
+transition: all 0.15s;
+}
+
+.noteButton:hover{
+    font-weight: bold;
+    cursor: pointer;    
+
+}
+
+tr.note-hidden {
+    position: absolute;
+    opacity: 0;
+    height: 0;
+    visibility: hidden;
+    width: 100%;
+}
+
+tr.note {
+    width: 100%;
+
+    position: static;
+    opacity: 1;
+    transition: all 1.5s ease;
+
+
+    
+}
+
+
+html {
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-image: url('sun.jpeg');
+  background-size: 2000px;
+}
+
+body {
+  color: white;
+  font-family: futura;
+  background-color:rgba(70, 109, 37, 0.742);
+  max-width: 700px;
+  margin: 50px auto;
+  border: 4px solid ;
+
+  border-bottom: none;
+}
+
+form {
+    display:inline block;
+    width:70%;
+    padding: 20px;
+    margin: 0 auto;
+
+
+}
+
+label {
+    margin:0;
+}
+
+input {
+    display:block;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+#submitButton {
+    font-size: 22px;
+    display:inline-block;
+    padding:0.3em 1.2em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:2em;
+    border-style: none;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-weight:300;
+    color:#FFFFFF;
+    background-color:#924ef1;
+    text-align:center;
+    transition: all 0.5s;
+}
+
+#submitButton:hover {
+    background-color:#3f84c1;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+h1 {
+    padding: 8px;
+    border-bottom: 4px solid ;
+}
+
+h3 {
+    margin: 10px;
+}
+
+p {
+    padding: 10px;
+}
+
+a.deleteButton {
+    color:rgb(27, 235, 155);
+    text-decoration: none;
+    font-size: 11px;
+    margin-left: 5px;
+    display:inline-block;
+}
+
+.deleteButton:hover {
+    color: rgb(247, 101, 84);
+    font-weight: bold;
+    margin-left: 3px;
+    
+}
+
+table {
+
+    border-spacing: 0;
+    border-bottom: 4px solid ;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+
+    
+}
+
+
+th {
+text-align:left;    
+border-bottom: 4px solid ;
+padding-bottom: 8px;
+}
+
+td {
+    padding: 5px;
+}
+
+.bookInfo {
+    margin: 8px;
+    border: 2px solid;
+}
+
+.alert-whoops {
+color: rgb(245, 27, 96);
+text-align: center; 
+padding:20px;
+}
+
+.alert-success {
+color: rgb(27, 245, 125);
+text-align: center; 
+font-size: 30px;
+padding:20px;
+}
+

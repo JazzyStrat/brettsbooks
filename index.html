@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Brett's Books</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+<body>
+
+    <object data="https://growersfirst.dm.networkforgood.com/forms/93486?iframe=1" width="400" height="300"
+        type="text/html">
+        Alternative Content
+    </object>
+<h1>Brett's Book List</h1>
+
+
+<h3>a place to keep track of the reads</h3>
+<h1>add a book :</h1>
+
+
+<form id='book-form'>
+<label>Title</label>
+<input type='text' id='title'>
+<label>Author</label>
+<input type='text' id='author'>
+<label>Release Date</label>
+<input type='text' id='date'>
+
+<input type="submit" id='submitButton' value='add book' />
+
+</form>
+<table id="book-list">
+    <thead>
+        <tr>
+            <th scope="col">Book</th>
+            <th scope="col">Author</th>
+            <th scope="col">Release Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><a href='#' class='expand'>Moby-Dick</td>
+            <td>Herman Melville</td>
+            <td>⭐️⭐️</td>
+            <td><a class='deleteButton' href='#'>X</a></td>
+        
+        </tr>
+        <tr class='note-hidden'>
+            <td colspan='4'>
+                <h3>Book Note</h3>
+                <blockquote contenteditable='true'>MOBY 4EVR</blockquote>
+                <input type='submit' class='noteButton' value='save note'>
+            </td>
+        </tr>
+        <tr>
+            <td><a href='#'>Adventures of Huckleberry Finn</a></td>
+            <td>Mark Twain</td>
+            <td>December 10th, 1884</td>
+            <td><a class='deleteButton' href='#'>X</a></td>
+
+        </tr>
+        <tr>
+            
+            <td><a href='#'>Manufacturing Consent</a></td>
+            <td>Noam Chomsky</td>
+            <td>1988</td>
+            <td><a class='deleteButton' href='#'>X</a></td>
+
+        </tr>
+    </tbody>
+</table>
+
+</body>
+<script src="app.js"></script>
+</html>
